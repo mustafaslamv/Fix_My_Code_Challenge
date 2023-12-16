@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 """simple class represents any square"""
 
+
 class square():
     """
     simple square class
     """
-
-    width = 0
-    height = 0
 
     def __init__(self, *args, **kwargs):
         for key, value in kwargs.items():
