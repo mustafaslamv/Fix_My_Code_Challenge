@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
 class square():
+    """
+    simple square class
+    """
 
     width = 0
     height = 0
